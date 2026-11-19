@@ -1,0 +1,23 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "{C4C1DA93-4BE5-FC41-5655-30A4ACB56F18}",
+  "Category": "",
+  "Description": "",
+  "TargetPlatforms": [
+    "Windows"
+  ],
+  "Plugins": [
+    {
+      "Name": "PythonScriptPlugin",
+      "Enabled": true
+    },
+    {
+      "Name": "EditorScriptingUtilities",
+      "Enabled": true
+    },
+    {
+      "Name": "CS6BombRuntime",
+      "Enabled": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1",
+  "FriendlyName": "CS6 Bomb Runtime",
+  "CanContainContent": true,
+  "EnabledByDefault": false,
+  "Plugins": [{"Name": "Metasound", "Enabled": true}],
+  "Modules": [{"Name": "CS6BombRuntime", "Type": "Runtime", "LoadingPhase": "Default"}]
+}

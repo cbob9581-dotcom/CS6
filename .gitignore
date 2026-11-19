@@ -1,0 +1,46 @@
+# Local state and credentials
+.codemap/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+*.pem
+*.key
+# Original downloads, backups and installed tools
+/素材/
+/SourceAssets/
+/Comparison53/
+/Backups/
+/BuildTools/
+/reports/
+# Unreal generated outputs
+**/Binaries/
+**/Intermediate/
+**/Saved/
+**/DerivedDataCache/
+**/.vs/
+*.sln
+*.suo
+*.VC.db
+*.pdb
+*.obj
+*.log
+*.lnk
+__pycache__/
+# Keep desktop launchers, exclude packaged builds
+/Build/*
+!/Build/Desktop/
+/Build/Desktop/*
+!/Build/Desktop/*.cmd
+
+# Machine-specific editor preferences and encryption keys
+**/Config/DefaultCrypto.ini
+**/Config/DefaultEditorPerProjectUserSettings.ini
+
+# Installer executable
+/tools/vs_BuildTools.exe
+# Metadata required by package_windows.ps1
+!/reports/
+/reports/*
+!/reports/military-gameplay-setup.json
